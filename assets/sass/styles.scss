@@ -1,0 +1,64 @@
+@import 'variables';
+
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+html {
+    font-family: 'Outfit', sans-serif;
+
+    body {
+        background-color: $Lightgray;
+
+        .main {
+            height: 100vh;
+            width: 100vw;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            flex-direction: column;
+
+            .container {
+                background-color: $White;
+                width: 20rem;
+                display: flex;
+                flex-direction: column;
+                border-radius: 1rem;
+
+                .container_img {
+                    padding: 1rem;
+
+                    img {
+                        width: 100%;
+                        border-radius: 0.5rem;
+                    }
+                }
+
+                .container_tittle {
+                    text-align: center;
+                    font-size: 1.5rem;
+                    font-weight: 700;
+                    color: $Darkblue;
+                    padding: 1rem;
+                }
+
+                .container_paragraph {
+                    font-weight: 400;
+                    font-size: 1rem;
+                    text-align: center;
+                    padding: 0rem 1.5rem 2rem 1.5rem;
+                    color: $Grayishblue;
+                }
+            }
+        }
+        .footer {
+            position: fixed;
+            width: 100vw;
+            bottom: 0.5rem;
+            text-align: center;
+        }
+    }
+}
+
+
