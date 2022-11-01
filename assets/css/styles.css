@@ -18,7 +18,11 @@ html {
         width: 20rem;
         display: flex;
         flex-direction: column;
-        border-radius: 1rem; }
+        border-radius: 1rem;
+        box-shadow: 1px 1px 3px 1px rgba(31, 50, 81, 0.308);
+        transition: all 0.3s cubic-bezier(0.25, 0.8, 0.25, 1); }
+        html body .main .container:hover {
+          box-shadow: 1px 1px 15px 5px rgba(31, 50, 81, 0.308); }
         html body .main .container .container_img {
           padding: 1rem; }
           html body .main .container .container_img img {
@@ -39,5 +43,10 @@ html {
     html body .footer {
       position: fixed;
       width: 100vw;
-      bottom: 0.5rem;
+      bottom: 0.7rem;
       text-align: center; }
+      html body .footer a {
+        text-decoration: none;
+        color: #1f3251; }
+        html body .footer a:hover {
+          color: black; }
