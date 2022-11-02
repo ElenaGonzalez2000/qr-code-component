@@ -13,7 +13,6 @@ html {
 
         .main {
             height: 100vh;
-            width: 100vw;
             display: flex;
             align-items: center;
             justify-content: center;
@@ -23,6 +22,7 @@ html {
                 width: 20rem;
                 display: flex;
                 flex-direction: column;
+                margin: 1rem;
                 border-radius: 1rem;
                 box-shadow: 1px 1px 3px 1px hsla(217, 45%, 22%, 0.308);
                 transition: all 0.3s cubic-bezier(.25,.8,.25,1);
@@ -59,15 +59,11 @@ html {
                 position: absolute;
                 bottom: 0.5rem;
                 text-align: center;
-                font-size: 0.9rem;
-                padding-bottom: 0.5rem;
-    
+                font-size: 0.8rem;
+                
                 a {
                     text-decoration: none;
-    
-                    &:hover {
-                        color: black;
-                    }
+                    color: $Darkblue;
                 }
             }
         }
